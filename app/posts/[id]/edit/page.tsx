@@ -36,7 +36,6 @@ export default function EditPost() {
       toast.success('Post updated successfully!');
       router.push('/dashboard');
     } catch (error) {
-      console.error('Failed to update post:', error);
       toast.error('Failed to update post', 'Please try again later.');
     }
   };

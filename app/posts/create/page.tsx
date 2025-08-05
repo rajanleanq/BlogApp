@@ -21,7 +21,6 @@ export default function CreatePost() {
       toast.success('Post created successfully!');
       router.push('/dashboard');
     } catch (error) {
-      console.error('Failed to create post:', error);
       toast.error('Failed to create post', 'Please try again later.');
     }
   };
